@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <script>
+        function change(){
+            let a=document.getElementById('btn');
+            a.innerHTML='Submitted';
+        }
+    </script>
+</head>
+<body>
+    <div id="box">
+        <h2 id="b1"><img src="LoginIMG.jpg" alt="Imgae"><br> Login</h2>
+        <div id="email">Email Address <br><input type="email" id="inputBox"></div>
+        <div id="password">Password <br> <input type="password" id="inputBox"></div>
+        <button id="btn" onclick="change()">Login</button>
+        <div id="twoPar">
+            <a href="ForgetPassWord" id="forgot">Forgot Password?</a>
+            <div id="signUp" >Already have an account? <a href="SignUp.HTML">SignUp?</a> </div>
+        </div>
+    </div>
+    
+</body>
+</html>

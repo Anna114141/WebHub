@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Mode Styling */
 html {
   scroll-behavior: smooth;
@@ -336,4 +337,90 @@ nav {
 
 .social-icons .instagram:hover {
   color: #E1306C;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+#b1{
+    text-align: center;
+    padding-top: 10px;
+}
+body{
+    padding-top: 25px;
+    background-color: skyblue;
+    font-family: "Kosugi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+    place-items: center;
+    height:100%;
+    width: 100%;
+}
+#box{
+    padding-top: 50px;
+    margin:auto;
+    height: 600px;
+    width: 300px;
+    background-color: rgb(232, 233, 233);
+    border-radius: 12px;
+    border: 3px;
+    text-align: center;
+}
+#email{
+    margin: 30px;
+    margin-top: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px;
+    text-align: left;
+}
+#password{
+    margin: 30px;
+    margin-top: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px;
+    text-align: left;
+}
+#inputBox{
+    border-radius: 20px;
+    background-color: rgb(232,233,233);
+    border: none;
+}
+#btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 17px;
+    background-color:skyblue;
+    /*background: linear-gradient(rgb(6, 168, 233));*/
+    color: rgb(20, 14, 5);
+    margin-bottom: 15px;
+    font-family: "Kosugi Maru", serif;
+}
+.btn1{
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+
+
+#btn1:hover{
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+#twoPar{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+#forgot{
+    color:rgb(103, 103, 217);
+    font-size: 10px;
+    
+}
+#signUp{
+    font-size: 10px;
+>>>>>>> c9ed2cd0d4f3d3a9f67d67f70ae33c61d7b4419e
 }
